@@ -7,6 +7,7 @@
 ```
 cd datasets
 python kth_download.py
+wget http://www.utdallas.edu/~kehtar/UTD-MAD/RGB.zip
 cd ..
 ```
 

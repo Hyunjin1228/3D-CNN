@@ -7,3 +7,8 @@
 wandb
 */data
 */kth-data
+*/utdmad
+*.zip
+*/aihub-data
+*.tar
+*/kinetic-400

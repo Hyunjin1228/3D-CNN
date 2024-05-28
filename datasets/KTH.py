@@ -53,7 +53,7 @@ def make_raw_dataset(directory="kth-data-aux", transform=None, f=9, device=None)
         for (file,s) in zip(cat_files, subject_ids):
             filenames[s].append(file) 
             
-    for subject_id in range(11, subjects):
+    for subject_id in range(subjects):
         categories = []
         input = []
         
