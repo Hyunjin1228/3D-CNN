@@ -7,11 +7,14 @@
 ```
 cd datasets
 python kth_download.py
+cd utdmad
 wget http://www.utdallas.edu/~kehtar/UTD-MAD/RGB.zip
+unzip RGB.zip
 cd ..
 ```
 
-Make the downloaded file in the folder kth. As ./kth/boxing/person01_boxing_d1_uncomp.avi.
+Make the downloaded file in the folder kth. As cs570/datasets/kth-human-motion/boxing/person01_boxing_d1_uncomp.avi.
+For the UTD-MAD dataset, we have to set the data folder as cs570/datasets/utdmad/RGB/a1_s1_t1_color.avi.
 
 2. Run the model
 
